@@ -1,0 +1,56 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Raster Calculator
+qgisMinimumVersion=3.0
+description=A powerful map algebra raster calculator similar to ArcGIS Raster Calculator. Part of MAS Raster Processing tools.
+version=1.0.0
+author=Mirjan Ali Sha
+email=mastools.help@gmail.com
+
+about=A powerful raster calculator that provides ArcGIS-style Map Algebra functionality.
+    Features:
+    - Interactive expression builder with numeric keypad and operators
+    - Support for multiple input raster layers
+    - Conditional functions: Con, Pick, SetNull
+    - Math functions: Abs, Exp, Log, Sqrt, Sin, Cos, Tan, and more
+    - Comparison and logical operators
+    - Available as both GUI tool and Processing algorithm
+    
+    How to use:
+    1. Open the Raster Calculator from Raster > MAS Raster Processing > Raster Calculator
+    2. Double-click on layers to add them to your expression
+    3. Use the buttons to build your map algebra expression
+    4. Select output location and click Calculate
+    
+    Part of MAS** Raster Processing toolbox.
+    ** MAS refers to "Mirjan Ali Sha"
+
+tracker=https://github.com/Mirjan-Ali-Sha/raster_calculator/issues
+repository=https://github.com/Mirjan-Ali-Sha/raster_calculator
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=raster, calculator, map algebra, raster calculator, math, conditional, processing, analysis
+
+homepage=https://github.com/Mirjan-Ali-Sha/raster_calculator/wiki
+category=Raster
+icon=raster_calculator.png
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# If the plugin can run on QGIS Server.
+server=False
+experimental=False
+
+changelog=
+    1.0.0 - Initial release with map algebra expression support
